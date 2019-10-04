@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72ECF2092346F198008C7EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECF2082346F198008C7EF7 /* AppDelegate.swift */; };
+		72ECF20B2346F198008C7EF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECF20A2346F198008C7EF7 /* SceneDelegate.swift */; };
+		72ECF20D2346F198008C7EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECF20C2346F198008C7EF7 /* ViewController.swift */; };
+		72ECF2102346F198008C7EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ECF20E2346F198008C7EF7 /* Main.storyboard */; };
+		72ECF2132346F198008C7EF7 /* Final_Baca_Uang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72ECF2112346F198008C7EF7 /* Final_Baca_Uang.xcdatamodeld */; };
+		72ECF2152346F199008C7EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72ECF2142346F199008C7EF7 /* Assets.xcassets */; };
+		72ECF2182346F199008C7EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ECF2162346F199008C7EF7 /* LaunchScreen.storyboard */; };
+		72ECF2232346F19A008C7EF7 /* Final_Baca_UangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECF2222346F19A008C7EF7 /* Final_Baca_UangTests.swift */; };
+		72ECF22E2346F19A008C7EF7 /* Final_Baca_UangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECF22D2346F19A008C7EF7 /* Final_Baca_UangUITests.swift */; };
+		72ECF23C2346F23E008C7EF7 /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 72ECF23B2346F23D008C7EF7 /* ImageClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72ECF21F2346F19A008C7EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72ECF1FD2346F198008C7EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72ECF2042346F198008C7EF7;
+			remoteInfo = "Final Baca Uang";
+		};
+		72ECF22A2346F19A008C7EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72ECF1FD2346F198008C7EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72ECF2042346F198008C7EF7;
+			remoteInfo = "Final Baca Uang";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72ECF2052346F198008C7EF7 /* Final Baca Uang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Baca Uang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72ECF2082346F198008C7EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72ECF20A2346F198008C7EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72ECF20C2346F198008C7EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72ECF20F2346F198008C7EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72ECF2122346F198008C7EF7 /* Final_Baca_Uang.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Final_Baca_Uang.xcdatamodel; sourceTree = "<group>"; };
+		72ECF2142346F199008C7EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72ECF2172346F199008C7EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72ECF2192346F199008C7EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72ECF21E2346F19A008C7EF7 /* Final Baca UangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Baca UangTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72ECF2222346F19A008C7EF7 /* Final_Baca_UangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Baca_UangTests.swift; sourceTree = "<group>"; };
+		72ECF2242346F19A008C7EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72ECF2292346F19A008C7EF7 /* Final Baca UangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Baca UangUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72ECF22D2346F19A008C7EF7 /* Final_Baca_UangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Baca_UangUITests.swift; sourceTree = "<group>"; };
+		72ECF22F2346F19A008C7EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72ECF23B2346F23D008C7EF7 /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ImageClassifier.mlmodel; path = ../../../../Desktop/ImageClassifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72ECF2022346F198008C7EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECF21B2346F19A008C7EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECF2262346F19A008C7EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72ECF1FC2346F198008C7EF7 = {
+			isa = PBXGroup;
+			children = (
+				72ECF2072346F198008C7EF7 /* Final Baca Uang */,
+				72ECF2212346F19A008C7EF7 /* Final Baca UangTests */,
+				72ECF22C2346F19A008C7EF7 /* Final Baca UangUITests */,
+				72ECF2062346F198008C7EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72ECF2062346F198008C7EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72ECF2052346F198008C7EF7 /* Final Baca Uang.app */,
+				72ECF21E2346F19A008C7EF7 /* Final Baca UangTests.xctest */,
+				72ECF2292346F19A008C7EF7 /* Final Baca UangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72ECF2072346F198008C7EF7 /* Final Baca Uang */ = {
+			isa = PBXGroup;
+			children = (
+				72ECF2082346F198008C7EF7 /* AppDelegate.swift */,
+				72ECF20A2346F198008C7EF7 /* SceneDelegate.swift */,
+				72ECF20C2346F198008C7EF7 /* ViewController.swift */,
+				72ECF20E2346F198008C7EF7 /* Main.storyboard */,
+				72ECF2142346F199008C7EF7 /* Assets.xcassets */,
+				72ECF23B2346F23D008C7EF7 /* ImageClassifier.mlmodel */,
+				72ECF2162346F199008C7EF7 /* LaunchScreen.storyboard */,
+				72ECF2192346F199008C7EF7 /* Info.plist */,
+				72ECF2112346F198008C7EF7 /* Final_Baca_Uang.xcdatamodeld */,
+			);
+			path = "Final Baca Uang";
+			sourceTree = "<group>";
+		};
+		72ECF2212346F19A008C7EF7 /* Final Baca UangTests */ = {
+			isa = PBXGroup;
+			children = (
+				72ECF2222346F19A008C7EF7 /* Final_Baca_UangTests.swift */,
+				72ECF2242346F19A008C7EF7 /* Info.plist */,
+			);
+			path = "Final Baca UangTests";
+			sourceTree = "<group>";
+		};
+		72ECF22C2346F19A008C7EF7 /* Final Baca UangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72ECF22D2346F19A008C7EF7 /* Final_Baca_UangUITests.swift */,
+				72ECF22F2346F19A008C7EF7 /* Info.plist */,
+			);
+			path = "Final Baca UangUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72ECF2042346F198008C7EF7 /* Final Baca Uang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72ECF2322346F19A008C7EF7 /* Build configuration list for PBXNativeTarget "Final Baca Uang" */;
+			buildPhases = (
+				72ECF2012346F198008C7EF7 /* Sources */,
+				72ECF2022346F198008C7EF7 /* Frameworks */,
+				72ECF2032346F198008C7EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final Baca Uang";
+			productName = "Final Baca Uang";
+			productReference = 72ECF2052346F198008C7EF7 /* Final Baca Uang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72ECF21D2346F19A008C7EF7 /* Final Baca UangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72ECF2352346F19A008C7EF7 /* Build configuration list for PBXNativeTarget "Final Baca UangTests" */;
+			buildPhases = (
+				72ECF21A2346F19A008C7EF7 /* Sources */,
+				72ECF21B2346F19A008C7EF7 /* Frameworks */,
+				72ECF21C2346F19A008C7EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72ECF2202346F19A008C7EF7 /* PBXTargetDependency */,
+			);
+			name = "Final Baca UangTests";
+			productName = "Final Baca UangTests";
+			productReference = 72ECF21E2346F19A008C7EF7 /* Final Baca UangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72ECF2282346F19A008C7EF7 /* Final Baca UangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72ECF2382346F19A008C7EF7 /* Build configuration list for PBXNativeTarget "Final Baca UangUITests" */;
+			buildPhases = (
+				72ECF2252346F19A008C7EF7 /* Sources */,
+				72ECF2262346F19A008C7EF7 /* Frameworks */,
+				72ECF2272346F19A008C7EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72ECF22B2346F19A008C7EF7 /* PBXTargetDependency */,
+			);
+			name = "Final Baca UangUITests";
+			productName = "Final Baca UangUITests";
+			productReference = 72ECF2292346F19A008C7EF7 /* Final Baca UangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72ECF1FD2346F198008C7EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Rional Linardi";
+				TargetAttributes = {
+					72ECF2042346F198008C7EF7 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					72ECF21D2346F19A008C7EF7 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 72ECF2042346F198008C7EF7;
+					};
+					72ECF2282346F19A008C7EF7 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 72ECF2042346F198008C7EF7;
+					};
+				};
+			};
+			buildConfigurationList = 72ECF2002346F198008C7EF7 /* Build configuration list for PBXProject "Final Baca Uang" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72ECF1FC2346F198008C7EF7;
+			productRefGroup = 72ECF2062346F198008C7EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72ECF2042346F198008C7EF7 /* Final Baca Uang */,
+				72ECF21D2346F19A008C7EF7 /* Final Baca UangTests */,
+				72ECF2282346F19A008C7EF7 /* Final Baca UangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72ECF2032346F198008C7EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECF2182346F199008C7EF7 /* LaunchScreen.storyboard in Resources */,
+				72ECF2152346F199008C7EF7 /* Assets.xcassets in Resources */,
+				72ECF2102346F198008C7EF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECF21C2346F19A008C7EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECF2272346F19A008C7EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72ECF2012346F198008C7EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECF20D2346F198008C7EF7 /* ViewController.swift in Sources */,
+				72ECF2092346F198008C7EF7 /* AppDelegate.swift in Sources */,
+				72ECF2132346F198008C7EF7 /* Final_Baca_Uang.xcdatamodeld in Sources */,
+				72ECF20B2346F198008C7EF7 /* SceneDelegate.swift in Sources */,
+				72ECF23C2346F23E008C7EF7 /* ImageClassifier.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECF21A2346F19A008C7EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECF2232346F19A008C7EF7 /* Final_Baca_UangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ECF2252346F19A008C7EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECF22E2346F19A008C7EF7 /* Final_Baca_UangUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72ECF2202346F19A008C7EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72ECF2042346F198008C7EF7 /* Final Baca Uang */;
+			targetProxy = 72ECF21F2346F19A008C7EF7 /* PBXContainerItemProxy */;
+		};
+		72ECF22B2346F19A008C7EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72ECF2042346F198008C7EF7 /* Final Baca Uang */;
+			targetProxy = 72ECF22A2346F19A008C7EF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72ECF20E2346F198008C7EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72ECF20F2346F198008C7EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72ECF2162346F199008C7EF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72ECF2172346F199008C7EF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72ECF2302346F19A008C7EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72ECF2312346F19A008C7EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72ECF2332346F19A008C7EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93VCC7FJ89;
+				INFOPLIST_FILE = "Final Baca Uang/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rional.Final-Baca-Uang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72ECF2342346F19A008C7EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93VCC7FJ89;
+				INFOPLIST_FILE = "Final Baca Uang/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rional.Final-Baca-Uang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72ECF2362346F19A008C7EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93VCC7FJ89;
+				INFOPLIST_FILE = "Final Baca UangTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rional.Final-Baca-UangTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Baca Uang.app/Final Baca Uang";
+			};
+			name = Debug;
+		};
+		72ECF2372346F19A008C7EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93VCC7FJ89;
+				INFOPLIST_FILE = "Final Baca UangTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rional.Final-Baca-UangTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Baca Uang.app/Final Baca Uang";
+			};
+			name = Release;
+		};
+		72ECF2392346F19A008C7EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93VCC7FJ89;
+				INFOPLIST_FILE = "Final Baca UangUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rional.Final-Baca-UangUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Baca Uang";
+			};
+			name = Debug;
+		};
+		72ECF23A2346F19A008C7EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93VCC7FJ89;
+				INFOPLIST_FILE = "Final Baca UangUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rional.Final-Baca-UangUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Baca Uang";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72ECF2002346F198008C7EF7 /* Build configuration list for PBXProject "Final Baca Uang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ECF2302346F19A008C7EF7 /* Debug */,
+				72ECF2312346F19A008C7EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72ECF2322346F19A008C7EF7 /* Build configuration list for PBXNativeTarget "Final Baca Uang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ECF2332346F19A008C7EF7 /* Debug */,
+				72ECF2342346F19A008C7EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72ECF2352346F19A008C7EF7 /* Build configuration list for PBXNativeTarget "Final Baca UangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ECF2362346F19A008C7EF7 /* Debug */,
+				72ECF2372346F19A008C7EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72ECF2382346F19A008C7EF7 /* Build configuration list for PBXNativeTarget "Final Baca UangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ECF2392346F19A008C7EF7 /* Debug */,
+				72ECF23A2346F19A008C7EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72ECF2112346F198008C7EF7 /* Final_Baca_Uang.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72ECF2122346F198008C7EF7 /* Final_Baca_Uang.xcdatamodel */,
+			);
+			currentVersion = 72ECF2122346F198008C7EF7 /* Final_Baca_Uang.xcdatamodel */;
+			path = Final_Baca_Uang.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72ECF1FD2346F198008C7EF7 /* Project object */;
+}
